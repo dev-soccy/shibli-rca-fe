@@ -7,7 +7,7 @@ a {
   text-decoration: none;
 }
 .navbr{
-  height: 8vh !important;
+  height: 10vh !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,7 +40,7 @@ a {
   width: 100vw;
   display: flex;
   position: relative;
-  height: 10vh;
+  height: 15vh;
   justify-content: center;
 }
 .bottom-bar {
@@ -56,8 +56,8 @@ a {
 }
 
 .logo {
-  width: 4vw;
-  height: 4vw;
+  width: 6vw;
+  height: 6vw;
   position: absolute;
   left: 5%;
   top: 5%;

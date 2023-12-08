@@ -23,24 +23,11 @@ export default function HomePage() {
   <input type='checkbox' id='responsive-menu' onclick='updatemenu()'/><label></label>
   <ul>
     <li><a href='#'>Home</a></li>
-    <li><a class='dropdown-arro' href='#'>Notices</a>
-      {/* <ul class='sub-menus'>
-        <li><a href='#'>Notices 1</a></li>
-        <li><a href='#'>Notices 2</a></li>
-        <li><a href='#'>Notices 3</a></li>
-        <li><a href='#'>Notices 4</a></li>
-      </ul> */}
-    </li>
+    <li><a href='#'>Notices</a></li>
     <li><a href='#'>Donation</a></li>
-    {/* <li><a class='dropdown-arrow' href='#'>Faculty Member</a>
-      <ul class='sub-menus'>
-        <li><a href='#'>Faculty Member1</a></li>
-        <li><a href='#'>Faculty Member2</a></li>
-        <li><a href='#'>Faculty Member3</a></li>
-      </ul>
-    </li> */}
     <li><a href='#'>Contact Us</a></li>
   </ul>
+
 </nav>
       <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
@@ -100,12 +87,8 @@ export default function HomePage() {
           <span>Spotlight</span>
         </div>
         <marquee>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quasi
-          eveniet soluta! Dignissimos sit doloribus praesentium blanditiis
-          aperiam laudantium! Voluptate facilis reprehenderit quis doloribus
-          nulla cumque eveniet magnam sed delectus in nostrum quaerat amet,
-          nesciunt debitis expedita exercitationem at ad repellendus quo! Ea
-          totam mollitia necessitatibus dolore? Temporibus, odit optio.
+          Notice-1  -  Notice-2  -  Notice-3  -  Notice-3  -  Notice-5
+          Notice-6  -  Notice-7  -  Notice-8  -  Notice-9  -  Notice-10
         </marquee>
       </div>
       <div className="sub-head">
@@ -114,54 +97,54 @@ export default function HomePage() {
       <div className="container-fluid">
         <div className="row " data-aos="fade-up" data-aos-duration="1000">
           <div className="col-lg-6 notice_board1">
-            <h6 className="span_text">Lates News</h6>
+            <h6 className="span_text">Latest News</h6>
             <ul>
               <li>
-                <a href="#">Lorem ipsum dolor sit amet.</a>
+                <a href="#">Notice-1</a>
               </li>
               <li>
-                <a href="#">Lorem ipsum dolor sit amet.</a>
+                <a href="#">Notice-2</a>
               </li>
               <li>
-                <a href="#">Lorem ipsum dolor sit amet.</a>
+                <a href="#">Notice-3</a>
               </li>
               <li>
-                <a href="#">Lorem ipsum dolor sit amet.</a>
+                <a href="#">Notice-4</a>
               </li>
               <li>
-                <a href="#">Lorem ipsum dolor sit amet.</a>
+                <a href="#">Notice-5</a>
               </li>
               <li>
-                <a href="#">Lorem ipsum dolor sit amet.</a>
+                <a href="#">Notice-6</a>
               </li>
               <li>
-                <a href="#">Lorem ipsum dolor sit amet.</a>
+                <a href="#">Notice-7</a>
               </li>
             </ul>
           </div>
           <div className="col-lg-6 notice_board2">
-            <h6 className="span_text">Training News</h6>
+            <h6 className="span_text">Updates</h6>
             <ul>
               <li>
-                <a href="#">Lorem ipsum dolor sit amet.</a>
+                <a href="#">Update - 1</a>
               </li>
               <li>
-                <a href="#">Lorem ipsum dolor sit amet.</a>
+                <a href="#">Update - 2</a>
               </li>
               <li>
-                <a href="#">Lorem ipsum dolor sit amet.</a>
+                <a href="#">Update - 3</a>
               </li>
               <li>
-                <a href="#">Lorem ipsum dolor sit amet.</a>
+                <a href="#">Update - 4</a>
               </li>
               <li>
-                <a href="#">Lorem ipsum dolor sit amet.</a>
+                <a href="#">Update - 5</a>
               </li>
               <li>
-                <a href="#">Lorem ipsum dolor sit amet.</a>
+                <a href="#">Update - 6</a>
               </li>
               <li>
-                <a href="#">Lorem ipsum dolor sit amet.</a>
+                <a href="#">Update - 7</a>
               </li>
             </ul>
           </div>
@@ -179,11 +162,11 @@ export default function HomePage() {
           <br />
           <div class="input_container">
             <label class="input_label" for="email_field">
-              User ID
+              Student ID
             </label>
 
             <input
-              placeholder="Enter User ID"
+              placeholder="Enter Student ID"
               title="Inpit title"
               name="input-name"
               type="text"

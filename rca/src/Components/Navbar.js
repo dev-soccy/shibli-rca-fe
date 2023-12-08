@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./style.css";
-import Logo from "../images/sbhiblilogo.png";
+import Logo from "../images/SRCA-logo.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

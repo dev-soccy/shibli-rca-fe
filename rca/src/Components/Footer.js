@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/sbhiblilogo.png";
+import logo from "../images/SRCA-Logo-WB.png";
 import map from '../images/map.png'
 
 export default function Footer() {
@@ -12,8 +12,10 @@ export default function Footer() {
         </div>
         <br />
         <div className="infoo">
-            <h5>Phone No : (+00) 252682</h5>
-            <h5>Address : Lorem, ipsum dolor.</h5>
+            <h5>Phone No : (+91) 8655835557</h5>
+            <h5>Address  : Shibli RCA Campus,</h5>
+            <h5>           Pandey Bazaar</h5>
+            <h5>           Azamgarh</h5>
         </div>
         <img src={map} alt=""className="map"/>
       </footer>
