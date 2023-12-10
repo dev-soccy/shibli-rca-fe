@@ -23,7 +23,7 @@ export default function HomePage() {
   <input type='checkbox' id='responsive-menu' onclick='updatemenu()'/><label></label>
   <ul>
     <li><a href='#'>Home</a></li>
-    <li><a href='#'>Notices</a></li>
+    <li><a href='#'>Newss</a></li>
     <li><a href='#'>Donation</a></li>
     <li><a href='#'>Contact Us</a></li>
   </ul>
@@ -87,43 +87,267 @@ export default function HomePage() {
           <span>Spotlight</span>
         </div>
         <marquee>
-          Notice-1  -  Notice-2  -  Notice-3  -  Notice-3  -  Notice-5
-          Notice-6  -  Notice-7  -  Notice-8  -  Notice-9  -  Notice-10
+          News-1  -  News-2  -  News-3  -  News-3  -  News-5
+          News-6  -  News-7  -  News-8  -  News-9  -  News-10
         </marquee>
       </div>
-      <div className="sub-head">
-        <h2>Notice Update</h2>
-      </div>
+      {/* <div className="sub-head">
+        <h2>News Update</h2>
+      </div> */}
       <div className="container-fluid">
         <div className="row " data-aos="fade-up" data-aos-duration="1000">
-          <div className="col-lg-6 notice_board1">
+          <div className="col-lg-4 notice_board1">
             <h6 className="span_text">Latest News</h6>
+            <div className="new_list">
             <ul>
               <li>
-                <a href="#">Notice-1</a>
+                <a href="#">News-1</a>
               </li>
               <li>
-                <a href="#">Notice-2</a>
+                <a href="#">News-2</a>
               </li>
               <li>
-                <a href="#">Notice-3</a>
+                <a href="#">News-3</a>
               </li>
               <li>
-                <a href="#">Notice-4</a>
+                <a href="#">News-4</a>
               </li>
               <li>
-                <a href="#">Notice-5</a>
+                <a href="#">News-5</a>
               </li>
               <li>
-                <a href="#">Notice-6</a>
+                <a href="#">News-6</a>
               </li>
               <li>
-                <a href="#">Notice-7</a>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
               </li>
             </ul>
+            <ul>
+              <li>
+                <a href="#">News-1</a>
+              </li>
+              <li>
+                <a href="#">News-2</a>
+              </li>
+              <li>
+                <a href="#">News-3</a>
+              </li>
+              <li>
+                <a href="#">News-4</a>
+              </li>
+              <li>
+                <a href="#">News-5</a>
+              </li>
+              <li>
+                <a href="#">News-6</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="#">News-1</a>
+              </li>
+              <li>
+                <a href="#">News-2</a>
+              </li>
+              <li>
+                <a href="#">News-3</a>
+              </li>
+              <li>
+                <a href="#">News-4</a>
+              </li>
+              <li>
+                <a href="#">News-5</a>
+              </li>
+              <li>
+                <a href="#">News-6</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="#">News-1</a>
+              </li>
+              <li>
+                <a href="#">News-2</a>
+              </li>
+              <li>
+                <a href="#">News-3</a>
+              </li>
+              <li>
+                <a href="#">News-4</a>
+              </li>
+              <li>
+                <a href="#">News-5</a>
+              </li>
+              <li>
+                <a href="#">News-6</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+              <li>
+                <a href="#">News-7</a>
+              </li>
+            </ul>
+            </div>
           </div>
-          <div className="col-lg-6 notice_board2">
-            <h6 className="span_text">Updates</h6>
+          <div className="col-lg-4">
+          <div className="form">
+            <h5>Student Login</h5>
+            <form action=""className="student_form">
+            <div className="u_id">
+              <label htmlFor="userID">Student ID</label>
+              <input type="text" id="userID"/></div>
+              <br />
+              <div className="u_id">
+              <label htmlFor="password">Password</label>
+              <input type="password"id="password" /></div>
+              <br />
+              <div className="u_id buttons">
+              <button className="login">Login</button>
+              <button className="forgot_password">Forgot Password</button></div>
+            </form>
+          </div>
+          <div className="col-lg-4">
+          <div className="form">
+            <h5>Faculty Login</h5>
+            <form action=""className="student_form">
+            <div className="u_id">
+              <label htmlFor="userID">User ID</label>
+              <input type="text" id="userID"/></div>
+              <br />
+              <div className="u_id">
+              <label htmlFor="password">Password</label>
+              <input type="password"id="password" /></div>
+              <br />
+              <div className="u_id buttons">
+              <button className="login button-2">Login</button>
+              </div>
+            </form>
+          </div>
+            {/* <h6 className="span_text">Updates</h6>
             <ul>
               <li>
                 <a href="#">Update - 1</a>
@@ -146,58 +370,36 @@ export default function HomePage() {
               <li>
                 <a href="#">Update - 7</a>
               </li>
-            </ul>
+            </ul> */}
+          </div>
+            {/* <h6 className="span_text">Updates</h6>
+            <ul>
+              <li>
+                <a href="#">Update - 1</a>
+              </li>
+              <li>
+                <a href="#">Update - 2</a>
+              </li>
+              <li>
+                <a href="#">Update - 3</a>
+              </li>
+              <li>
+                <a href="#">Update - 4</a>
+              </li>
+              <li>
+                <a href="#">Update - 5</a>
+              </li>
+              <li>
+                <a href="#">Update - 6</a>
+              </li>
+              <li>
+                <a href="#">Update - 7</a>
+              </li>
+            </ul> */}
           </div>
         </div>
       </div>
-      <div className="container login_form">
-        <form
-          class="form_container"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
-          <div class="title_container">
-            <h3 class="title">Student Login</h3>
-          </div>
-          <br />
-          <div class="input_container">
-            <label class="input_label" for="email_field">
-              Student ID
-            </label>
-
-            <input
-              placeholder="Enter Student ID"
-              title="Inpit title"
-              name="input-name"
-              type="text"
-              class="input_field"
-              id="email_field"
-            />
-          </div>
-          <div class="input_container">
-            <label class="input_label" for="password_field">
-              Password
-            </label>
-
-            <input
-              placeholder="Password"
-              title="Inpit title"
-              name="input-name"
-              type="password"
-              class="input_field"
-              id="password_field"
-            />
-          </div>
-          <span className="forgotPassword">
-            <a href="#">
-              <u>forgot password?</u>
-            </a>
-          </span>
-          <button title="Sign In" type="submit" class="sign-in_btn">
-            <span>Sign In</span>
-          </button>
-        </form>
-      </div>
+      
      
     </div>
   );
