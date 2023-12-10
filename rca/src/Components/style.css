@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap');
 body {
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif !important;
@@ -183,12 +184,13 @@ input:hover {
 .head_name {
   position: absolute;
   left: 50%;
-  top: 20%;
+  top: 30%;
   transform: translateX(-50%);
 font-size:2.3vw;
   position: absolute;
-  font-family: "Outfit";
+  font-family: 'Kanit', sans-serif;
   font-style: normal;
+  font-weight: 600;
 }
 
 .bottom-bar ul {
@@ -255,47 +257,111 @@ marquee {
 .row {
   width: 50vw;
   position: absolute;
-  height: 40vh;
+  height: 40em;
   display: flex;
   justify-content: center;
-  left: 25%;
+  left: 15em;
   margin-top: 2vw;
   margin-bottom: 2vw;
+}
+.new_list{
+  display: flex;
 }
 
 .container-fluid {
   width: 100vw;
-  height: 60vh;
+  height: 50em;
   display: flex;
   justify-content: center;
  
 }
 .notice_board1 {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  width: 20vw;
-  height: 20em;
+  width: 30vw;
+  height: 43em;
   border-radius: 11px;
 }
-.notice_board2 {
-  margin-left: 10rem;
 
-  width: 20vw;
-  height: 20em;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border-radius: 11px;
-}
 .notice_board1 ul li a {
   font-size: 1vw;
 }
 
-.notice_board2 ul li a {
-  font-size: 1vw;
+.form{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ transform: translate(5vw);
+ width: 40vw;
+ position: relative;
+ height: 20em;
+ margin-bottom: 2rem;
 }
+.form h5{
+  left: 15vw;
+  top: 10%;
+  position: absolute;
+ 
+  color: rgb(27, 67, 50);
+  font-size: 2vw !important;
+  font-weight: 900 !important;
+  font-family: 'Montserrat', sans-serif !important;
+
+}
+
+.student_form{
+transform: translate(-5%,5%);
+
+}
+.u_id{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+ }
+ label{
+  margin: 1rem;
+  width: 10vw;
+  font-weight: 600;
+ }
+ input{
+  width: 20vw;
+ 
+ }
+
+
+ .login{
+  width: 8vw;
+  margin-right: 8rem;
+
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(52,107,83,1) 0%, rgba(48,103,80,1) 100%);
+  color: white;
+  border:1px solid #1b433296;
+  border-radius: 50px;
+  height: 2vw;
+  
+ }
+ .forgot_password{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(52,107,83,1) 0%, rgba(48,103,80,1) 100%);
+  color: white;
+  border:1px solid #1b433296;
+  border-radius: 50px;
+  height: 2vw;
+  width: 10vw;
+  
+ }
+ .buttons{
+  transform: translate(5%,-15%);
+ }
+ .button-2{
+  width: 30vw;
+  position: absolute;
+  left: 5.5%;
+  top: 2%;
+  transform: translateY(-20%);
+ }
 h6 {
   text-align: center !important;
   padding: 2rem;
   color: rgb(27, 67, 50);
-  font-size: 20px;
+  font-size: 2vw;
   font-weight: 900;
 }
 .login_form {
